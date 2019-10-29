@@ -1,0 +1,20 @@
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">SchoolGes</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="{{ path('index') }}">Home</a></li>
+      {# {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+           <li><a href="{{ path('etudiant') }}">Liste Articles</a></li>
+           <li><a href="{{ path('etuform') }}">Article Form</a></li>
+           <li><a href="{{path('app_logout') }}">logout</a></li>
+      {% else  %} 
+          <li><a href="{{path('app_login') }}">User login</a></li>
+          <li><a href="{{path('registration') }}">User registration</a></li>
+      {% endif %} #}
+    </ul>
+  </div>
+</nav>
+
